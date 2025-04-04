@@ -148,18 +148,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7125-common/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx616.bin \
     vendor/samsung/sm7125-common/proprietary/vendor/lib/camera/f_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/f_dual_calibration.bin \
     vendor/samsung/sm7125-common/proprietary/vendor/lib/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/w_dual_calibration.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.1_0_sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.1_0_sony_imx616.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5kgd2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5kgd2.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5kgd2_otp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5kgd2_otp.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.2_0_lsi_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.2_0_lsi_s5k3l6.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.2_1_hynix_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.2_1_hynix_hi1336.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.8_0_sony_imx616_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.8_0_sony_imx616_full.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.8_1_lsi_s5kgd2_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.8_1_lsi_s5kgd2_full.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.8_1_lsi_s5kgd2_full_otp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.8_1_lsi_s5kgd2_full_otp.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5kgd2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5kgd2.bin \
-    vendor/samsung/sm7125-common/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx616.bin
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.1_0_sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.1_0_sony_imx616.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.1_1_lsi_s5kgd2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.1_1_lsi_s5kgd2.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.1_1_lsi_s5kgd2_otp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.1_1_lsi_s5kgd2_otp.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.2_0_lsi_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.2_0_lsi_s5k3l6.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.2_1_hynix_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.2_1_hynix_hi1336.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.8_0_sony_imx616_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.8_0_sony_imx616_full.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.8_1_lsi_s5kgd2_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.8_1_lsi_s5kgd2_full.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.sensormodule.8_1_lsi_s5kgd2_full_otp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.sensormodule.8_1_lsi_s5kgd2_full_otp.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.tuned.lsi_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.tuned.lsi_gc5035_macro.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.tuned.lsi_s5kgd2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.tuned.lsi_s5kgd2.bin \
+    vendor/samsung/sm7125-common/proprietary/vendor/lib64/com.samsung.tuned.sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.samsung.tuned.sony_imx616.bin
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
@@ -328,8 +328,6 @@ PRODUCT_PACKAGES += \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libpvr \
     libqcbor \
     libqcc_file_agent \
@@ -483,11 +481,7 @@ PRODUCT_PACKAGES += \
     libshoebox \
     libswspatializer \
     spatializer-aidl-V1-cpp \
-    com.qti.eeprom.sec2qcconversion \
-    com.samsung.node.smooth_transition \
-    com.wrapper.stats.aec \
     gatekeeper.mdfpp \
-    libSNPE \
     libSemDataProps \
     libSemTelephonyProps \
     libengmode_client \
@@ -504,8 +498,6 @@ PRODUCT_PACKAGES += \
     libsec-ril \
     libsecril-client_vendor \
     libskeymaster4device \
-    libsnpe_dsp_domains_v2 \
-    libsnpe_wrapper \
     libvkmanager_vendor \
     unnhal-acc-adreno \
     unnhal-acc-common \
