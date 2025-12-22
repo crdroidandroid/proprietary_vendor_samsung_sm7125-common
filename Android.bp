@@ -4158,11 +4158,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/unihal_main@2.15.so"],
-			shared_libs: ["libui_shim", "libutils", "libcutils", "libcamera_metadata", "libhardware", "libhidlbase", "libsensorndkbridge", "libsync", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.common@1.2", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@2.1", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@4.0", "libui", "libgrallocusage", "unihal_cutils@2.15", "unihal_uniplugin@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui_shim", "libui_shim", "libutils", "libcutils", "libcamera_metadata", "libhardware", "libhidlbase", "libsensorndkbridge", "libsync", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.common@1.2", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@2.1", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@4.0", "libui", "libgrallocusage", "unihal_cutils@2.15", "unihal_uniplugin@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unihal_main@2.15.so"],
-			shared_libs: ["libui_shim", "libutils", "libcutils", "libcamera_metadata", "libhardware", "libhidlbase", "libsensorndkbridge", "libsync", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.common@1.2", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@2.1", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@4.0", "libui", "libgrallocusage", "unihal_cutils@2.15", "unihal_uniplugin@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui_shim", "libui_shim", "libutils", "libcutils", "libcamera_metadata", "libhardware", "libhidlbase", "libsensorndkbridge", "libsync", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.common@1.2", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@2.1", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@4.0", "libui", "libgrallocusage", "unihal_cutils@2.15", "unihal_uniplugin@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -5882,8 +5882,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liba2dpoffload_vendor",
-	stem: "liba2dpoffload",
+	name: "liba2dpoffload",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -5968,8 +5967,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbatterylistener_vendor",
-	stem: "libbatterylistener",
+	name: "libbatterylistener",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -5986,8 +5984,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcirrusspkrprot_vendor",
-	stem: "libcirrusspkrprot",
+	name: "libcirrusspkrprot",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6004,8 +6001,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcomprcapture_vendor",
-	stem: "libcomprcapture",
+	name: "libcomprcapture",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6039,8 +6035,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libexthwplugin_vendor",
-	stem: "libexthwplugin",
+	name: "libexthwplugin",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6057,8 +6052,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhdmiedid_vendor",
-	stem: "libhdmiedid",
+	name: "libhdmiedid",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6075,8 +6069,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhdmipassthru_vendor",
-	stem: "libhdmipassthru",
+	name: "libhdmipassthru",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6093,8 +6086,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhfp_vendor",
-	stem: "libhfp",
+	name: "libhfp",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6230,8 +6222,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsndmonitor_vendor",
-	stem: "libsndmonitor",
+	name: "libsndmonitor",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -6265,8 +6256,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libspkrprot_vendor",
-	stem: "libspkrprot",
+	name: "libspkrprot",
 	owner: "samsung",
 	strip: {
 		none: true,
